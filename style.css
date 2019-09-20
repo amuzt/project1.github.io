@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+	margin: 0;
+	background: #red;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: transparent;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: #blue;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#logo {
+    height: 4em;
+    float: left;
+
+}
+
+li {
+    color: black;
+
+
+}
+
+#form {
+    background: transparent;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    align-self: auto;
+    position: absolute;
+    border-style: none;
+
+}
+
+#content{ 
+    position:absolute; 
+    top:0px; 
+    padding:30px; 
+    color:#FFF; 
+    text-shadow:#000 2px 2px;
+ }
+
+.video-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+  }
+.section {
+    font-family: 'Rye', cursive;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+.section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Rye', cursive;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.7;
+
+  }
+  .terimakasih {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center
+}
+  footer {
+
+    text-align: center;
+    font-size: 20px;
+  }
