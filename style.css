@@ -6,7 +6,7 @@
 }
 
 .header {
-  background:transparent;
+  background: transparent;
   height: 100vh;
 }
 
@@ -35,7 +35,7 @@ nav li {
 }
 
 nav a {
-  color:grey;
+  color: grey;
   text-transform: uppercase;
   font-size: 25px;
 }
@@ -48,7 +48,7 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #black;
+  background-color: #24b790;
   position: absolute;
   top: 0;
   width: 0%;
@@ -61,27 +61,26 @@ nav a:hover::before {
 
 #video-background {
 
-position: relative;
+  position: relative;
 }
-body{
+
+body {
 
   text-align: center;
   font-family: 'Be Vietnam', sans-serif;
 }
 
 
-
-h1
-{
+h1 {
   text-align: center;
 }
-p
-{
+
+p {
   text-align: center;
-  
+
 }
 
-tbody{
+tbody {
 
   text-align: center;
   content: center;
@@ -91,49 +90,70 @@ td {
   text-align: center;
   content: center;
   font-family: 'Be Vietnam', sans-serif;
-  color : blue;
+  color: blue;
 
 
 }
+
 #packages {
 
   width: 320px;
-  
+
+
 }
 
-#package
-{
+#package {
   text-align: center;
-  border: 2px solid grey;
-  border-radius: 5px;
-  font-size: 100px;
-}
+  border: 2px solid black;
+  border-radius: 45px;
+  font-size: 50px;
+  color: rgb(144, 151, 149);
+  font-family: 'Be Vietnam', sans-serif;
+  padding: 10px;
 
-#book
-{
- font-size: 25px;
- color: fff;
- margin: 5px;
- padding: 7px;
- text-decoration: none;
- border: 1px solid coral;
- border-radius: 25px;
- text-align: center;
-
+  left: auto;
+  text-decoration: none
 }
 
 
-#call
-{
+}
+
+#index {
+  background: "semarang.mp4";
+}
+
+#book {
+  font-size: 25px;
+  color: rgb(160, 184, 160);
+  margin: 5px;
+  padding: 7px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+
+
+
+}
+
+
+#call {
 
   height: 30px;
+}
+
+.label {
+
+  margin: 5px;
+  padding: 7px;
+
+
 }
 
 
 footer {
 
-    text-align: center;
-    border: 2px solid grey;
-    border-radius: 5px;
-  }
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
